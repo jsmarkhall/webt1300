@@ -1,0 +1,266 @@
+/* Mobile Styles */
+body {
+    background: rgb(60, 43, 99);
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 5px auto;
+}
+
+header {
+    background-image: url(https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-9/228207881_128319449484230_8881843123693312223_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=19026a&_nc_ohc=3MKYmC_ZJoIAX8dnzRZ&_nc_ht=scontent-atl3-1.xx&oh=ab984e66849a5fc568a5145b68dc4f94&oe=6173B3BE);
+    background-size: 200%;
+    background-position: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 20px solid rgb(98, 49, 189);
+    border-radius: 16px 16px 0px 0px;
+    text-shadow: 5px 5px 5px rgb(98, 49, 189);
+    font-size: smaller;
+}
+
+header img {
+    border-radius: 50% 50% 50% 50%;
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+}
+
+#container {
+    background-color: rgb(179, 157, 199);
+    border: 5px solid rgb(69, 45, 92);
+    border-radius: 25px 25px 25px;
+}
+
+nav {
+    background-color: rgb(98, 49, 189);
+    padding-top: 1px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+nav li a {
+    display: inline-block;
+    background-color:rgb(172, 154, 189);
+    height: 37px;
+    width: 150px;
+    font-size: 18px;
+    line-height: 35px;
+    color:rgb(69, 45, 92);
+    text-decoration: none;
+    border-radius: 8px 8px 8px 8px;
+    margin: 15px 0 auto;
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+nav a:hover {
+    background-color: rgb(69, 45, 92);
+    color: rgb(172, 154, 189);
+}
+
+main {
+padding-top: 1%;
+padding-left: 11%;
+padding-right: 11%;
+line-height: 200%;
+color: rgb(69, 45, 92);
+font-size: smaller;
+line-height: 250%;
+}
+h2 {
+    color: rgb(69, 45, 92);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(2, 103, 255);
+}
+
+h3 {
+        color: rgb(172, 154, 189);
+        text-align: center;
+        text-shadow: 2px 2px 2px rgb(2, 103, 255);
+        font-size: 120%;
+        margin: 15px auto;
+}
+
+#divider {
+    background-color: rgb(98, 49, 189);
+    padding-top: 1px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    color: rgb(172, 154, 189);
+    font-size: larger;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#divider img {
+    width: 60%;
+    border-radius: 10%
+}
+
+footer {
+    padding-top: 20px;
+    background-color: rgb(98, 49, 189);
+    padding: 20px;
+    border-radius: 0 0 16px 16px;
+    color: rgb(172, 154, 189);
+    text-align: center;
+}
+
+.col, #divider {
+    border: 2px solid rgb(69, 45, 92);
+    border-radius: 5px;
+}
+
+.col {
+    margin: auto;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(69, 45, 92);
+    border-radius: 20px;
+}
+section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+iframe {
+    margin: auto;
+    display: block;
+    padding: 15px;
+}
+
+#upper_flex img {
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+video {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.gallery {
+    display: block
+}
+.gallery_img {
+    display:block;
+    border: 5px solid rgb(69, 45, 92);
+}
+table {
+    display: none;
+}
+/* Tablet Styles */
+
+
+@media(min-width: 768px) {
+    .gallery {
+        display: block
+    }
+    table {
+        display: none;
+        }
+    header {
+        padding: 30px;
+    }
+
+nav {
+        text-align: center;
+ }
+
+nav li {
+        display: inline-block;
+}
+
+nav li a {
+        height: 25px;
+        line-height: 25px;
+        width: 125px;
+        font-size: large;
+        margin: 5px 5px;
+}
+main {
+        font-size: larger;
+}
+    
+#lower_flex {
+    text-align: center;
+}
+
+section {
+        display: inline-flex;
+        padding: 10px 30px 10px 30px;
+        margin: 5px auto;
+}
+h3 {
+        font-size: 9.2px;
+}
+
+/* Desktop Styles */
+@media(min-width: 1024px) {
+    header {
+        font-size: xx-large;
+    }
+    
+    #upper_flex img {
+        width: 35%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #container {
+        width: 90%;
+        margin: 30px auto;
+        border: 10px rgb(31, 16, 59) solid;
+    }
+    nav li a {
+        height: 45px;
+        line-height: 45px;
+        font-size: larger;
+        margin: 10px 15px;
+        width: auto;
+    }
+    
+    #divider img {
+    width: 30%;
+    border-radius: 10%
+}
+    section {
+        display: inline-flex;
+    }
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+}
+}
+
+
+td, tr {
+    display: inline-flex;
+    border: 6px solid rgb(69, 45, 92);
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+table {
+    display: block;
+}
+.gallery {
+    display: none;
+}
